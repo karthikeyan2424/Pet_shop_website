@@ -162,7 +162,7 @@
  .banner {
      width: 100%;
      height: 85vh;
-     background-image: url('banner.webp');
+     background-image: url('image/banner.webp');
      background-position: center center;
      background-size: cover;
      background-repeat: no-repeat;
@@ -418,7 +418,7 @@
  .secondbanner {
      width: 100%;
      height: 70vh;
-     background-image: url('./shopnow_banner.webp');
+     background-image: url('image/./shopnow_banner.webp');
      background-size: cover;
      background-position: center center;
      background-repeat: no-repeat;
@@ -657,7 +657,7 @@
  }
 
  .contact {
-     background-image: url('./big_banner.webp');
+     background-image: url('image/./big_banner.webp');
      background-size: cover;
      background-position: center;
      padding-bottom: 30px;
@@ -703,7 +703,7 @@
  }
 
  .about {
-     background-image: url('./front-view-beautiful-dog-with-copy-space.jpg');
+     background-image: url('image/./front-view-beautiful-dog-with-copy-space.jpg');
      background-size: cover;
      background-position: center;
      width: 100%;
