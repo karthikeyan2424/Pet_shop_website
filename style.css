@@ -2,6 +2,7 @@
      text-decoration: none;
      padding: 0;
      margin: 0;
+     font-family: sans-serifj;
      list-style: none;
  }
 
@@ -32,6 +33,94 @@
      text-decoration: none;
  }
 
+ @media (max-width: 750px) {
+     .logo a {
+         font-size: 30px;
+         margin-left: 20px;
+     }
+ }
+
+ @media (max-width: 480px) {
+     .logo a {
+         font-size: 24px;
+     }
+ }
+
+ .logo a span {
+     color: rgb(255, 251, 0);
+     text-decoration: none;
+ }
+
+ .menu-toggle {
+     display: none;
+ }
+
+ .toggle-menu {
+     display: none;
+     flex-direction: column;
+     cursor: pointer;
+     color: #000000;
+     font-size: 25px; /* Default size for the menu icon */
+ }
+
+ @media (max-width: 750px) {
+     .toggle-menu {
+         font-size: 20px; /* Smaller size for medium screens */
+     }
+ }
+
+ @media (max-width: 480px) {
+     .toggle-menu {
+         font-size: 16px; /* Even smaller size for small screens */
+     }
+ }
+ * {
+     text-decoration: none;
+     padding: 0;
+     margin: 0;
+     list-style: none;
+ }
+
+ header {
+     background-color: #00ffff;
+     position: sticky;
+     width: 100%;
+     z-index: 2;
+     top: 0;
+ }
+
+ .navbar {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+
+ }
+
+ .logo a {
+     font-size: 38px;
+     margin-left: 80px;
+     padding: 0;
+     color: #000000;
+     line-height: 1;
+     font-weight: 700;
+     font-family: cursive;
+     text-transform: uppercase;
+     text-decoration: none;
+ }
+
+ @media (max-width: 750px) {
+     .logo a {
+         font-size: 30px;
+         margin-left: 20px;
+     }
+ }
+
+ @media (max-width: 480px) {
+     .logo a {
+         font-size: 24px;
+     }
+ }
+
  .logo a span {
      color: rgb(255, 251, 0);
      text-decoration: none;
@@ -55,6 +144,9 @@
      justify-content: space-between;
      align-items: center;
 
+ }
+ .nav-links.active{
+    display: flex;
  }
 
  .nav-links li {
@@ -361,7 +453,7 @@
 
  .shopcategory .petlist .singlepet {
      width: 20%;
-     flex: 3 1 150px;
+     flex: 2 1 150px;
      text-align: center;
      padding-top: 30px;
      padding-bottom: 50px;
@@ -469,7 +561,7 @@
  }
 
  .featureproduct .fpitem {
-     flex: 1 1 300px;
+     flex: 1 1 250px;
      background-color: #fff;
      box-shadow: 0 0 16px rgba(0 0 0 / 5%);
      border-radius: 17px;
@@ -712,12 +804,13 @@
  }
 
  .about .aboutbutton {
-     margin-left: 500px;
-     align-items: center;
+    margin-left: 500px;
+    margin-bottom: 30px;
+    align-items: center;
  }
 
  .about .aboutbutton a {
-     color: #000000;
+    color: #000000;
  }
 
  .about .aboutbutton :hover {
@@ -934,6 +1027,10 @@
      .footer-box ul li {
          font-size: 16px;
      }
+     .about .aboutbutton{
+        text-align: center;
+        align-items: center;
+     }
  }
 
  @media (max-width: 480px) {
@@ -953,4 +1050,5 @@
          font-size: 18px;
          padding: 6px;
      }
+   
  }
